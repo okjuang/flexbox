@@ -1,0 +1,65 @@
+.alineacion{
+    background-color: darkorange;
+    height: 30vh;
+    width: 50%;
+    overflow: auto;
+}
+ul{
+    display: flex;
+    align-items: flex-start;
+}
+h1{
+    text-align: center;
+}
+/* list-style nos permite quitar estilos a la lista como viñetas*/
+li{
+    list-style: none;
+    border: 2px solid brown;
+    margin-right: 5px;
+    padding: 10px;
+    background-color: antiquewhite;
+    font-size: large;
+}
+
+.caja{
+    background-color: aqua;
+    height: 30vh;
+}
+/* display:flex permite mover los elementos */
+.caja2{
+    background-color: aqua;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+.caja3{
+    background-color: aqua;
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* justify-content: *; alineacion de elementos en horizontal left/center/right*/
+.caja4{
+    background-color: blueviolet;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.caja5{
+    background-color: blueviolet;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja6{
+    background-color: blueviolet;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
